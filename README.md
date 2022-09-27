@@ -64,8 +64,11 @@ endmodule
 2 program:
 ![4 3](https://user-images.githubusercontent.com/93427224/192572382-9552b0b2-c3eb-4b98-90ae-7c1749581124.png)
 ## TRUTH TABLE:
+
+### 1 program:
 ![combo1TT](https://user-images.githubusercontent.com/93427224/192572747-c981f4d7-4efe-45a1-b530-e5f3a4f701c0.PNG)
 
+### 2 program:
 ![combo2TT](https://user-images.githubusercontent.com/93427224/192572783-8d8ec80c-dd31-482c-a1c6-d6070a4fafe6.PNG)
 
 ## RTL
