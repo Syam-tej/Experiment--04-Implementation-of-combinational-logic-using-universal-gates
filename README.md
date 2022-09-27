@@ -59,25 +59,19 @@ not(f,f4);
 endmodule
 ```
 ## RTL realization
-```
 1 program:
-```
 ![4 1](https://user-images.githubusercontent.com/93427224/192571983-e832ee83-ea15-400f-ab7d-3d03038dcf24.png)
-```
 2 program:
-```
 ![4 3](https://user-images.githubusercontent.com/93427224/192572382-9552b0b2-c3eb-4b98-90ae-7c1749581124.png)
-```
 ## TRUTH TABLE:
 ![combo1TT](https://user-images.githubusercontent.com/93427224/192572747-c981f4d7-4efe-45a1-b530-e5f3a4f701c0.PNG)
 
 ![combo2TT](https://user-images.githubusercontent.com/93427224/192572783-8d8ec80c-dd31-482c-a1c6-d6070a4fafe6.PNG)
 
 ## RTL
-```
+
 1 program:
 ![4 2](https://user-images.githubusercontent.com/93427224/192572942-43fa4a56-1bef-4d8e-a986-8c5fac1393a4.png)
-```
 2 program:
 ![4 4](https://user-images.githubusercontent.com/93427224/192573051-03c9eab6-683b-4813-bd5a-c85e69e93cdc.png)
 ```
