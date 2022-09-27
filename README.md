@@ -25,8 +25,7 @@ Using NOR gates
 NOR gate is actually a combination of two logic gates: OR gate followed by NOT gate. So its output is complement of the output of an OR gate. This gate can have minimum two inputs, output is always one. By using only NOR gates, we can realize all logic functions: AND, OR, NOT, Ex-OR, Ex-NOR, NAND. So this gate is also called universal gate. Designing a circuit with NOR gates only uses the same basic techniques as designing a circuit with NAND gates; that is, the application of deMorgan’s theorem. The only difference between NOR gate design and NAND gate design is that the former must eliminate product terms and the later must eliminate sum terms.
 
 F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
-
-## Logic Diagram
+```
 ## Procedure
 ## Program:
 ```
@@ -34,10 +33,53 @@ Program to implement the given logic function using NAND and NOR gates and to ve
 Developed by:212221240056 
 RegisterNumber:P.SYAM TEJ  
 ```
+## program 1:
+```
+module saisai(a,b,c,d,f);
+input a,b,c,d;
+output f;
+wire f1,f2,f3;
+assign f1 = (~c&~b&~a);
+assign f2 = (~d&~c&~a);
+assign f3 = (c&~(~b)&~a);
+assign f= f1&~f2&~f3;
+endmodule
+```
+## program 2:
+```
+module sai2(a,b,c,d,f);
+input a,b,c,d;
+output f;
+wire f1,f2,f3,f4;
+assign f1 = c&(~b)&a;
+assign f2 = d&(~c)&a;
+assign f3 = c&(~b)&a;
+assign f4 = ~(f1|f2|f3);
+not(f,f4);
+endmodule
+```
 ## RTL realization
+```
+1 program:
+```
+![4 1](https://user-images.githubusercontent.com/93427224/192571983-e832ee83-ea15-400f-ab7d-3d03038dcf24.png)
+```
+2 program:
+```
+![4 3](https://user-images.githubusercontent.com/93427224/192572382-9552b0b2-c3eb-4b98-90ae-7c1749581124.png)
+```
+## TRUTH TABLE:
+![combo1TT](https://user-images.githubusercontent.com/93427224/192572747-c981f4d7-4efe-45a1-b530-e5f3a4f701c0.PNG)
 
-## Output:
+![combo2TT](https://user-images.githubusercontent.com/93427224/192572783-8d8ec80c-dd31-482c-a1c6-d6070a4fafe6.PNG)
+
 ## RTL
-## Timing Diagram
+```
+1 program:
+![4 2](https://user-images.githubusercontent.com/93427224/192572942-43fa4a56-1bef-4d8e-a986-8c5fac1393a4.png)
+```
+2 program:
+![4 4](https://user-images.githubusercontent.com/93427224/192573051-03c9eab6-683b-4813-bd5a-c85e69e93cdc.png)
+```
 ## Result:
 Thus the given logic functions are implemented using NAND and NOR gates and their operations are verified using Verilog programming.
