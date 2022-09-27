@@ -70,10 +70,12 @@ endmodule
 
 ## RTL
 
-1 program:
+### 1 program:
+
 ![4 2](https://user-images.githubusercontent.com/93427224/192572942-43fa4a56-1bef-4d8e-a986-8c5fac1393a4.png)
 
-2 program:
+### 2 program:
+
 ![4 4](https://user-images.githubusercontent.com/93427224/192573051-03c9eab6-683b-4813-bd5a-c85e69e93cdc.png)
 
 ## Result:
